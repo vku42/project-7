@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "Poppins";
+    height: 100vh;
+}
+
+/* nabigation bar */
+
+nav {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items {
+    padding-left: 15%;
+    padding-right: 10%;
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* banner  */
+
+.intro-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.headphone-div {
+    position: relative;
+}
+/* right section */
+.right-section {
+    text-align: center;
+}
+
+.discount{
+    position: absolute;
+    top: 20%;
+    width: 20%;
+    left: 55px;
+    filter: drop-shadow(5px 8px 3px #333);
+      
+    /* box-shadow: 10px 10px 5px 12px lightblue; */
+}
+
+
+.discount-content {
+    position: absolute;
+    font-family: "Fredoka One";
+    top: 60%;
+    left: 80px;
+    color: #fff;
+}
+
+.discount-content h4{
+    margin-bottom: -3px;
+    font-size: 0.7rem;
+}
+
+.discount-content h1{
+    margin-top: 0px;
+    font-size: 3rem;
+}
+.headphone-div img {
+    height: 65vh;
+}
+/* circles  */
+.dots {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.dot {
+    background-color: green;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.yellow-dot {
+    background-color: #FBD104;
+}
+
+.tomato-dot {
+    background-color: #FE5E35;
+}
+
+.black-dot {
+    background-color: #000000;
+}
+
+.action-btn {
+    background-color: #FE5E35;
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 3rem;
+    font-size: 1.2rem;
+}
+
+
+/* left section  */
+
+.left-section h3{
+    font-size: 2rem;
+
+}
+
+.left-section h3 img{
+    position: relative;
+    top: 15px;
+}
+
+.left-section h1 {
+    font-family: "Fredoka One";
+    font-size: 4rem;
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+.sub-headlines {
+    margin-left: 40px;
+}
+
+.sub-headline{
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.sub-headline img{
+    background-color:  #FE5E35;
+    border-radius: 3rem;
+    padding: 4px 4px;
+    width: 1rem;
+    margin-right: 15px;
+    margin-top: 30px;
+}
+
+.text {
+    padding-bottom: 10px;
+    color: #2e2e2e;
+    font-size: 0.8rem;
+}
+
+
+@media screen and (max-width:1000px) {
+    .intro-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr ;
+    }
+}
